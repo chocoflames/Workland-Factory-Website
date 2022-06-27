@@ -3,6 +3,7 @@
   padding: 0;
   text-decoration: none !important;
   list-style-type: none;
+  scroll-behavior: smooth;
 }
 .menu-head {
   display: flex;
@@ -34,30 +35,25 @@
   position: relative;
   background-image: url("imgs/header.jpg");
   background-position: -6rem;
-  /* background-origin: border-box; */
-  /* background-repeat: no-repeat; */
   background-size: cover;
   height: 100vh;
   width: 100%;
   top: 0%;
 }
 .banner-writeup {
-  /* color: rgba(255, 255, 255, 0.813);
-    text-align: center; */
   padding-top: 180px;
   height: 100%;
   width: 60%;
   margin: 0 auto;
   text-align: center;
   color: white;
-  background-color: rgba(0,0,0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .banner-writeup h1 {
   font-size: 40px;
 }
 .banner-text {
   text-align: center;
-  /* width: 50%; */
 }
 .learn {
   width: 170px;
@@ -79,11 +75,121 @@
   background-color: #ffe25b;
   padding: 14px 25px;
 }
-.detail-head{
-  margin-top: 20px;
+.detail-head {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
   /* position: absolute; */
 }
-.detail-pic{
-  width: 400px;
-  height: 100px;
+.detail-pic {
+  width: 550px;
+  height: 330px;
+}
+.detail-text {
+  text-align: right;
+  /* width: 70%; */
+  /* box-sizing: border-box; */
+  display: flex;
+  justify-content: center;
+}
+.text {
+  width: 75%;
+}
+.text h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.underline {
+  text-decoration: underline #ffe25b !important;
+}
+.text-inform {
+  font-size: 21px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.readme {
+  width: 170px;
+  box-sizing: border-box;
+  border: 2px solid #ffe25b;
+  margin-top: 160px;
+  text-align: right;
+  color: white;
+  padding: 10px 0px;
+}
+.add {
+  margin-right: 25px;
+  padding-left: 10px;
+  color: black;
+  font-size: 16px;
+}
+.angle {
+  color: black;
+  background-color: #ffe25b;
+  padding: 11px 22px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.services-head {
+  margin-top: 40px;
+}
+.services-text {
+  font-size: 23px;
+}
+.services-text h2 {
+  padding-left: 40px !important;
+}
+.services-child {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  background-color: #ebebeb;
+}
+.services-banner {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* width: 70px; */
+}
+.service-image img {
+  margin-top: 50px;
+  width: 350px;
+  height: 300px;
+}
+.service-image p {
+  font-size: 15px;
+  width: 75%;
+}
+.icon{
+  float: right;
+}
+.read-me {
+  width: 170px;
+  box-sizing: border-box;
+  border: 2px solid #ffe25b;
+  margin-top: 160px;
+  text-align: right;
+  color: white;
+  padding: 10px 0px;
+  /* float: right; */
+}
+.add-text {
+  margin-right: 25px;
+  padding-left: 10px;
+  color: black;
+  font-size: 16px;
+}
+.angle-font {
+  color: black;
+  background-color: #ffe25b;
+  padding: 11px 22px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+
+
+
+@media screen and (max-width: 556px) {
+  
 }
