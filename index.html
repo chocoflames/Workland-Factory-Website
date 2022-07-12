@@ -13,7 +13,7 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="menu-head navbar navbar-expand-lg">
+    <!-- <div class="menu-head navbar navbar-expand-lg">
       <div class="menu-image">
         <img src="imgs/logo.png" alt="" />
       </div>
@@ -26,25 +26,118 @@
         <li class="list-bar log"><a href="">Log In/Register</a></li>
         <span><i class="fas fa-search search"></i></span>
       </div>
-    </div>
-    <div class="banner-head">
-      <div class="banner-writeup">
-        <h1 class="banner-style">
-          Welcome To <br />
-          Workland Factory
-        </h1>
-        <p class="banner-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore <br />
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea
-        </p>
-        <a href="" class="learn"
-          ><span class="more">read more</span>
-          <i class="fas fa-long-arrow-alt-right arrow"></i>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg light">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="imgs/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#nav-links"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          style="background: white;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <div class="navbar-collapse text-capitalize collapse show" id="nav-links">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#home" style="color: black;">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#service">services</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#test">testimonial</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#contact">contact us</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link log" href="#">Log in/Register</a>
+              </li>
+              <li class="nav-item search">
+                  <a class="nav-link search-link" href=""><i class="fas fa-search"></i></a>
+                  <form style="display: none;">
+                      <input type="search">
+                  </form>
+              </li>
+          </ul>
+      </div> -->
+        <div
+          class="collapse navbar-collapse text-capitalize unlist"
+          id="nav-links"
+        >
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link log" href="#">Log in/Register</a>
+            </li>
+            <li class="nav-item search">
+              <a class="nav-link search-link"
+                ><i class="fas fa-search"></i
+              ></a>
+              <form class="search-input">
+                <input type="search" />
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="banner-head">
+        <div class="banner-writeup">
+          <h1 class="banner-style">
+            Welcome To <br />
+            Workland Factory
+          </h1>
+          <p class="banner-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore <br />
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea
+          </p>
+          <a href="" class="learn"
+            ><span class="more">read more</span>
+            <i class="fas fa-long-arrow-alt-right arrow"></i>
+          </a>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#slideToNext"
+          role="button"
+          data-slide="prev"
+        >
+          <i class="fas fa-chevron-left"></i>
+          <span class="sr-only">Previous</span>
         </a>
       </div>
-    </div>
+    </header>
     <div class="detail-head" id="about">
       <div class="row">
         <div class="col-lg-6 col-12">
@@ -74,49 +167,170 @@
         </div>
       </div>
     </div>
-    <div class="services-head">
-      <div class="service-text" id="services">
-        <h2><span class="underline">Our</span> Services</h2>
-      </div>
+    <div class="services services-head" id="service">
+      <div class="container"><h2 class="text-capitalize"><span class="underline">Our</span> services</h2></div>
       <div class="services-child">
-        <div class="container">
-          <div class="services-banner row">
-            <div class="service-image col-lg-4 col-md-6 col-12">
-              <img src="imgs/pic4.jpg" alt="" />
-              <h2>Chemical Refinery</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, qui
-              </p>
-            </div>
-            <div class="service-image col-lg-4 col-md-6 col-12">
-              <img src="imgs/pic5.jpg" alt="" />
-              <h2>Steel Industry</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, qui
-              </p>
-            </div>
-            <div class="service-image col-lg-4 col-md-6 col-12">
-              <img src="imgs/pic6.jpg" alt="" />
-              <h2>Auto Engineering</h2>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, qui
-              </p>
-            </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-4 col-md-6 col-12">
+                      <div>
+                          <img src="imgs/pic4.jpg">
+                          <a href="#"><h4>Chemical Refinery</h4></a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                      <div>
+                          <img src="imgs/pic5.jpg">
+                          <a href="#"><h4>Steel Industry</h4></a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
+                      </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                      <div>
+                          <img src="imgs/pic6.jpg">
+                          <a href="#"><h4>Auto Engineering</h4></a>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui</p>
+                      </div>
+                  </div>
+              </div>
+              <a href="#"><i class="fas fa-long-arrow-alt-left fa-2x"></i><span>Read more</span></a>
           </div>
-          <div class="icon">
-            <a href="" class="read-me">
-              <i class="fas fa-long-arrow-alt-left angle-font"></i>
-              <span class="add-text">read more</span>
-            </a>
+      </div>
+  </div>
+    <div class="project">
+      <div class="container project-text" id="project">
+        <h2><span class="underline">Rece</span>nt Project</h2>
+      </div>
+      <div class="project-child">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 portrait-image">
+              <div class="image-cont">
+                <a href="">
+                  <img src="imgs/pic1.jpg" alt="" />
+                  <div
+                    class="yellow-overlay d-flex align-items-center justify-content-center"
+                  >
+                    <p>Auto engineering</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 portrait-image">
+              <div class="image-cont">
+                <a href="">
+                  <img src="imgs/pic2.jpg" alt="" />
+                  <div
+                    class="yellow-overlay d-flex align-items-center justify-content-center"
+                  >
+                    <p>Auto engineering</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 portrait-image">
+              <div>
+                <a href="">
+                  <img src="imgs/pic3.jpg" alt="" />
+                  <div
+                    class="yellow-overlay d-flex align-items-center justify-content-center"
+                  >
+                    <p>Auto engineering</p>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+<div id="contact" class="contact">
+  <div class="container">
+    <h2 class="text-capitalize">
+      <span class="underline">Get</span> In Touch
+    </h2>
+  </div>
+  <div class="contact-child">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          <div class="contact-form">
+            <form>
+              <input type="text" placeholder="Your name">
+              <input type="text" placeholder="Your Phone number">
+              <input type="text" placeholder="Your email">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+              <input type="submit" value="send" class="text-uppercase text-send">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div id="testimonial" class="testimonial">
+  <div class="container">
+    <h2 class="text-capitalize text-center">
+     <span class="underline">Test</span>imonial
+   </h2>
+</div>
+<div class="test-child">
+  <div class="container test-cont">
+    <div class="row row-test-img">
+      <div class="col-lg-2 col-md-1"></div>
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="imgs/pic8.jpg" alt="">
+      </div>
+      <div class="col-lg-6 col-8">
+        <h4 class="text-uppercase">helina</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+      </div>
+    </div>
+    <div class="row row-test">
+      <div class="col-lg-2 col-md-3 col-4">
+        <img src="imgs/pic9.jpg" alt="">
+      </div>
+      <div class="col-lg-6 col-8">
+        <h4 class="text-uppercase">jackson</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col 12">
+        <a href="" class="logo">
+          <img src="imgs/logo.png" alt="#">
+        </a>
+      </div>
+      <div class="col-lg-9 col-12 guide">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <span>Gb road 123 london Uk </span>
+          </div>
+          <div class="col-md-4 col-12">
+            <i class="fas fa-phone fa-2x"></i>
+            <span> (+71) 56982424536 </span>
+          </div>
+          <div class="col-md-4 col-12">
+            <i class="fas fa-envelope fa-2x"></i>
+            <span> work@gmail.com </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    <div class="scroll-btn">
+      <i class="fas fa-angle-up up"></i>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>
